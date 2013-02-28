@@ -1,0 +1,235 @@
+/* reset sheet for little printer, mostly guess work */ 
+
+body {
+  width: 384px;
+  padding: 0;
+  margin: 0;
+  max-height:800px;
+  color:#000;
+  background:#fff;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+    outline: none;
+    text-decoration: none;
+}
+
+.serif {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.mono {
+  font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+/* Typography - ripped form bootstrap with base of 20px */
+
+p {
+  margin: 0 0 14px;
+}
+.lead {
+  margin-bottom: 28px;
+  font-size: 30px;
+  font-weight: 200;
+  line-height: 42px;
+}
+small {
+  font-size: 85%;
+}
+strong {
+  font-weight: bold;
+}
+em {
+  font-style: italic;
+}
+cite {
+  font-style: normal;
+}
+.muted {
+  color: #999999;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 14px 0;
+  font-family: inherit;
+  font-weight: bold;
+  line-height: 28px;
+  color: inherit;
+  text-rendering: optimizelegibility;
+}
+h1 small,
+h2 small,
+h3 small,
+h4 small,
+h5 small,
+h6 small {
+  font-weight: normal;
+  line-height: 1;
+  color: #999999;
+}
+h1,
+h2,
+h3 {
+  line-height: 56px;
+}
+h1 {
+  font-size: 55px;
+}
+h2 {
+  font-size: 45px;
+}
+h3 {
+  font-size: 35px;
+}
+h4 {
+  font-size: 25px;
+}
+h5 {
+  font-size: 20px;
+}
+h6 {
+  font-size: 17px;
+}
+h1 small {
+  font-size: 35px;
+}
+h2 small {
+  font-size: 25px;
+}
+h3 small {
+  font-size: 20px;
+}
+h4 small {
+  font-size: 20px;
+}
+.page-header {
+  padding-bottom: 13px;
+  margin: 28px 0 42px;
+  border-bottom: 1px solid #eeeeee;
+}
+ul,
+ol {
+  padding: 0;
+  margin: 0 0 14px 25px;
+}
+ul ul,
+ul ol,
+ol ol,
+ol ul {
+  margin-bottom: 0;
+}
+li {
+  line-height: 28px;
+}
+ul.unstyled,
+ol.unstyled {
+  margin-left: 0;
+  list-style: none;
+}
+ul.inline,
+ol.inline {
+  margin-left: 0;
+  list-style: none;
+}
+ul.inline > li,
+ol.inline > li {
+  display: inline-block;
+  *display: inline;
+  /* IE7 inline-block hack */
+
+  *zoom: 1;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+dl {
+  margin-bottom: 28px;
+}
+dt,
+dd {
+  line-height: 28px;
+}
+dt {
+  font-weight: bold;
+}
+dd {
+  margin-left: 14px;
+}
+.dl-horizontal {
+  *zoom: 1;
+}
+.dl-horizontal:before,
+.dl-horizontal:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.dl-horizontal:after {
+  clear: both;
+}
+.dl-horizontal dt {
+  float: left;
+  width: 160px;
+  clear: left;
+  text-align: right;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.dl-horizontal dd {
+  margin-left: 180px;
+}
+hr {
+  margin: 28px 0;
+  border: 0;
+  border-top: 1px solid #eeeeee;
+  border-bottom: 1px solid #ffffff;
+}
+abbr[title],
+abbr[data-original-title] {
+  cursor: help;
+  border-bottom: 1px dotted #999999;
+}
+abbr.initialism {
+  font-size: 90%;
+  text-transform: uppercase;
+}
+blockquote {
+  padding: 0 0 0 15px;
+  margin: 0 0 28px;
+  border-left: 5px solid #eeeeee;
+}
+blockquote p {
+  margin-bottom: 0;
+  font-size: 25px;
+  font-weight: 300;
+  line-height: 1.25;
+}
+blockquote small {
+  display: block;
+  line-height: 28px;
+  color: #999999;
+}
+address {
+  display: block;
+  margin-bottom: 28px;
+  font-style: normal;
+  line-height: 28px;
+}
