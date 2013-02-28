@@ -9,7 +9,7 @@
 'use strict';
 
 // Basic template description.
-exports.description = 'Create a an instance of little-printer-example';
+exports.description = 'Create an instance of little-printer-example';
 
 // Template-specific notes to be displayed before question prompts.
 exports.notes = 'This template tries to guess file and directory paths, but ' +
