@@ -6,6 +6,7 @@ Bootstrapped with Grunt and a CSS-Reset file.
   $ npm install
 
 ## Test your JS
+  $ npm install --dev
   $ grunt
 
 ## Start the Server

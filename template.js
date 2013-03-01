@@ -27,7 +27,7 @@ exports.after = 'You should now install project dependencies with _npm ' +
 // The actual init template.
 exports.template = function(grunt, init, done) {
 
-  init.process({type: 'node'}, [
+  init.process({}, [
     init.prompt('name'),
     {
       name: 'title',
@@ -53,16 +53,17 @@ exports.template = function(grunt, init, done) {
     props.dependencies = {
         "ejs": "0.8.3",
         "express": "3.1.0",
-        "littleprinter": "~1.0.0"
+        "littleprinter": "1.0.2"
     };
 
     props.devDependencies = {
         "grunt" : "0.4.0",
-        "grunt-contrib-jshint" : "~0.1.0"
+        "grunt-contrib-jshint" : "0.1.0"
     };
 
     props.engines = {
-        "node": "~0.8.0"
+      "node":"0.8.x",
+      "npm":"1.1.x"
     };
 
     // Files to copy (and process).

@@ -18,6 +18,8 @@ git clone git@github.com:edwinwebb/grunt-init-lpserver.git ~/.grunt-init/lpserve
 
 _(Windows users, see [the documentation][grunt-init] for the correct destination directory path)_
 
+You then want to read the README.md in the generated repo. 
+
 ## Usage
 
 At the command-line, cd into an empty directory, run this command and follow the prompts.

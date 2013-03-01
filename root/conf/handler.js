@@ -4,7 +4,7 @@ var handler = { };
 handler.meta = {
   "owner_email":"{%= author_email %}",
   "publication_api_version":"1.0",
-  "name": "{%= name %}",
+  "name": "{%= title %}",
   "description": "{%= description %}",
   "delivered_on":"{%= delivered_on %}",
   "external_configuration": false,

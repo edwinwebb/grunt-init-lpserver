@@ -2,6 +2,8 @@
 
 body {
   width: 384px;
+  max-width: 384px;
+  overflow: hidden;
   padding: 0;
   margin: 0;
   max-height:800px;
