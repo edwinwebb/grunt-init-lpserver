@@ -1,11 +1,3 @@
-/*
- * grunt-init-gruntfile
- * https://gruntjs.com/
- *
- * Copyright (c) 2012 "Cowboy" Ben Alman, contributors
- * Licensed under the MIT license.
- */
-
 'use strict';
 
 // Basic template description.
@@ -32,7 +24,7 @@ exports.template = function(grunt, init, done) {
     {
       name: 'title',
       message: 'Formatted title for LP Store',
-      default: 'every day'
+      default: 'My Project'
     },
     init.prompt('description'),
     init.prompt('version'),
@@ -51,14 +43,14 @@ exports.template = function(grunt, init, done) {
     props.keywords = ['berg', 'little printer'];
 
     props.dependencies = {
-        "ejs": "0.8.3",
-        "express": "3.1.0",
-        "littleprinter": "1.0.2"
+      "ejs": "0.8.3",
+      "express": "3.1.0",
+      "littleprinter": "1.0.2"
     };
 
     props.devDependencies = {
-        "grunt" : "0.4.0",
-        "grunt-contrib-jshint" : "0.1.0"
+      "grunt" : "0.4.0",
+      "grunt-contrib-jshint" : "0.1.0"
     };
 
     props.engines = {
